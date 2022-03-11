@@ -1,6 +1,6 @@
 
 <?php
-define('DB_SEVER', 'https://remotemysql.com/');
+define('DB_SEVER', 'remotemysql.com');
 define('DB_USERNAME', 'ZjQ9CPdSZz');
 define('DB_PASSWORD', 'qAw5P2ZVkB');
 define('DB_NAME', 'ZjQ9CPdSZz');
