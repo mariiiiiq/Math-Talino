@@ -1,0 +1,180 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #202528;
+}
+a{
+    color: #202528;;
+}
+.bold{
+    font-weight: 700;
+}
+.navbar-light{
+    background-color: #fff;
+}
+.navbar-logo{
+    width: 3rem;
+}
+.navbar-border{
+    background-color: #fff;
+    border-bottom: 1px solid #dad7cd;
+}
+/*Footer*/
+.footer {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}   
+.footercontent{
+    background-color: #73a3d7;
+    width: 100%;
+    padding: 2%;
+    padding-left: 5%;
+}
+/* Buttons */
+.btns{
+    padding: 10px 25px 10px 25px;
+    border-radius: 3px;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.primary{
+    background-color:#5185BA;
+    color: #fff;
+    margin-right: 5px;
+}
+.secondary{
+    background-color: #f3f1ee;
+    color: #5185BA;
+    border-color: #73a3d7;
+    margin-right: 5px;
+}
+.secondary:hover, .primary:hover{
+    background-color: #2d639e;
+    border-color: #2d639e;
+    color: #fff;
+}
+/* Index */
+#welcome{
+    text-align: center;
+}
+.modal-body{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.modal-logo{
+    width: 230px;
+    height: auto;
+    z-index: 99999;
+    position:fixed;
+     left: 50%;
+     top:  10%;
+     margin-left: -115px;
+     margin-top:  -50px;
+}
+form .form-control:focus{
+    border-color: #73a3d7;
+    box-shadow: none;
+}
+label{
+    color: #3066a0;
+}
+/*Table*/   
+thead{
+    position: sticky;
+    top: 0px;
+}
+th, td{
+    text-align: center;
+}
+.table-wrapper{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.filter, .btnadd{
+    display: inline-block;
+    vertical-align:top;
+}
+/*Student*/
+.actlist{
+    text-decoration:none;
+}
+.actlist:hover{
+    color: #5185ba;
+}
+.bi-pencil-square{
+    color:#3066a0;
+}
+/*Card*/
+.card {
+    border-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgb(222 230 241 / 100%);
+    color: #202528;
+    text-decoration:none;
+}
+.card:hover{
+    border-color: #73a3d7;
+    text-decoration:none;
+    color: #202528;
+}
+.owl{
+    position: absolute;
+    width: 60%;
+    top:15%;
+    left: 20%;
+}
+.uploadfilearea{
+    width:100%;  
+    height:200px;  
+    border-radius: 3px;
+    border:2px dashed #73a3d7;  
+    text-align:center;  
+    font-size:24px;  
+}
+.file_drag_over{  
+    color:#000;  
+    border-color:#f6d271;  
+}  
+.filecard{
+    width: 150px;
+    height: 160px;
+    border: 1px solid #f3f1ee;
+    box-shadow: 0 8px 30px rgb(222 230 241 / 100%);
+    border-radius: 3px;
+    display: inline-block;
+}
+.filecard i{
+    font-size: 80px;
+}
+.filecard p{
+    font-size: 1rem;
+}
+@media only screen and (max-width: 992px) { 
+    .box{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+ }
+@media only screen and (max-width: 768px) {
+    #desc{
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px) { 
+    
+    .kid{
+        display: none;
+    }
+    .logo-lg{
+        padding: 0px, 0px, 0px, 0px;
+    }
+    .modal-logo{
+        top:  21%;
+    }
+}
