@@ -1,9 +1,9 @@
 
 <?php
-define('DB_SEVER', '127.0.0.1');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'math-talino');
+define('DB_SEVER', 'https://remotemysql.com/');
+define('DB_USERNAME', 'ZjQ9CPdSZz');
+define('DB_PASSWORD', 'qAw5P2ZVkB');
+define('DB_NAME', 'ZjQ9CPdSZz');
 
 $link = mysqli_connect(DB_SEVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
