@@ -32,7 +32,7 @@
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="lessonlist.php">Lessons</a>
+          <a class="nav-link" aria-current="page" href="lessonlist.php">Lessons</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="game.php">Games</a>
