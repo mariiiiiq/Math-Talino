@@ -5,24 +5,21 @@
 		require_once "config.php";
         $user = $_POST['username'];
 	    $pass = $_POST['password'];
-		echo $user;
 			$sql = "SELECT * FROM tblaccounts WHERE username = '$user'";
 			$result = mysqli_query($link, $sql);
 			$rows = mysqli_fetch_array($result);	
 			if($rows){
-				echo $user;
 				if($rows['password'] == $pass){
-					echo $user;
 					$_SESSION['user'] = $user;
 					if($rows['usertype'] == "Admin"){
-						
+						echo '<script>location.href="admin-account.php";</script>';
 					}
                     else if($rows['usertype'] == "Student"){
-						
+						echo '<script>location.href="student.php";</script>';
                         
 					}
 					else if($rows['usertype'] == "Teacher"){
-						
+						echo '<script>location.href="teacher.php";</script>';
 					}
 				}
 				else{
