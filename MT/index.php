@@ -82,7 +82,7 @@
                         data:{
                             login:"true",
                             username:$usr,
-                            password:$pss,
+                            password:$('#password').val(),
                         },
                         success:function(data){
                         $('#inputerror').html(data);
