@@ -109,6 +109,9 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
       <ul class="navbar-nav">
+       <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../student.php">Home</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="../lessonlist.php">Lessons</a>
         </li>
