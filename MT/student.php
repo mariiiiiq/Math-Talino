@@ -1,8 +1,5 @@
 <?php
  session_start();
-  if(!isset($_SESSION['user'])){
-    header('Location: index.php');
-  }
 ?>
 <!doctype html>
 <html lang="en">
