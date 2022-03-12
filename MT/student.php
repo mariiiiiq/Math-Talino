@@ -53,7 +53,7 @@
   </div>
 </nav>
     <div class="container-fluid px-5 py-1">
-      <div class="mb-3 pb-3"><img src = "assets/img/hiowl.png" class="hiowl">
+      <div class="mb-3 pb-3">
         <h2 class="bold pt-5   ">Welcome
         <?php echo $_SESSION['user'];?></h2>
         <?php 
