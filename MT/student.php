@@ -18,6 +18,7 @@
       .hiowl{
         position: absolute;
         width:600px;
+        margin-top:100px;
         margin-left: 800px;
       }
       </style>
