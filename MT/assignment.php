@@ -1,6 +1,3 @@
-<?php
- session_start();
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,17 +11,9 @@
     <link href="assets/img/logo-sm.ico" rel="icon">
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Math-Talino</title>
-    <style>
-      .hiowl{
-        position: absolute;
-        width:600px;
-        margin-top:100px;
-        margin-left: 800px;
-      }
-      </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-border">
+  <nav class="navbar navbar-expand-lg navbar-light navbar-border">
     <div class="container-fluid mx-5">
       <a class="navbar-brand bold w-50" href="admin-account.php"><img src="assets/img/logo-sm.png" class="navbar-logo" alt="">Math-Talino</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,6 +21,9 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
       <ul class="navbar-nav">
+       <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="student.php">Home</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="lessonlist.php">Lessons</a>
         </li>
@@ -39,10 +31,9 @@
           <a class="nav-link" href="game.php">Games</a>
         </li>
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <?php
-            echo $_SESSION['user'];?>
-        </a>
+          <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <?php echo $_SESSION['user'];?>
+          </a>
           <ul class="dropdown-menu drop-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Settings</a></li>
             <li><a class="dropdown-item text-danger" href="index.php">Logout</a></li>
@@ -52,59 +43,25 @@
     </div>
   </div>
 </nav>
-    <div class="container-fluid px-5 py-1">
-      <div class="mb-3 pb-3"><img src = "assets/img/hiowl.png" class="hiowl">
-        <h2 class="bold pt-5   ">Welcome
-        <?php echo $_SESSION['user'];?></h2>
-        <?php 
-          require_once "config.php";
-          $sql = "SELECT * FROM tblaccounts WHERE username = '".$_SESSION['user']."'";
-          $result = mysqli_query($link, $sql);
-          $rows = mysqli_fetch_array($result);	
-          if($rows){
-            echo "<h5>Your section is " . $rows['section'] . "!</h5>";
-          }
+    <div class="container-fluid p-5">
+        <h2 class="bold">Assignment</h2>
+        <?php
+            require_once "config.php";
+            $sql = "SELECT * FROM tblaccounts WHERE username = '".$_SESSION['user']."'";
+			$result = mysqli_query($link, $sql);
+			$rows = mysqli_fetch_array($result);	
+			if($rows){
+                $query = "SELECT * FROM tblactivity where forsection='".$rows['section']."' order by id";
+                if($r = mysqli_query($link, $query)){
+                    if(mysqli_num_rows($r) > 0){
+                        while($row = mysqli_fetch_array($r)){
+                            $_POST['actid'] = $row['id'];
+                            echo "<h6><a class='actlist p-2'href='activity/view.php?id=".$row['id']."'><i class='bi bi-pencil-square mx-2'></i>{$row['name']}</a></h6>";
+                        }
+                    }
+                }
+            }
         ?>
-        
-    </div>
-      <div class="row "><h6>Where do you want to go?</h6>
-            <div class="box col-md-3">
-                <a href="lessonlist.php" class="card p-2 mb-2" rel="noreferrer">
-                    <div class="mt-1">
-                        <div class="d-flex justify-content-center align-content-stretch flex-wrap">
-                            <img src="assets/img/boardowl.png" class="w-100 p-3" alt="">
-                        </div>
-                        <div>
-                            <h3 class="bold text-center mt-3 mb-3">Lessons</h3>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="box col-md-3">
-                <a href="game.php" class="card p-2 mb-2" rel="noreferrer">
-                    <div class="mt-1">
-                        <div class="d-flex justify-content-center align-content-stretch flex-wrap">
-                            <img src="assets/img/gameowl.png" class="w-100 p-3" alt="">
-                        </div>
-                        <div>
-                            <h3 class="bold text-center mt-3 mb-3">Games</h3>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="box col-md-3">
-                <a href="assignment.php" class="card p-2 mb-2" rel="noreferrer">
-                    <div class="mt-1">
-                        <div class="d-flex justify-content-center align-content-stretch flex-wrap">
-                            <img src="assets/img/owl.png" class="w-100 p-3" alt="">
-                        </div>
-                        <div>
-                            <h3 class="bold text-center mt-3 mb-3">Assignment</h3>
-                        </div>
-                    </div>
-                </a>
-            </div>
-      </div>
     </div>
     <div class="footer" id="footer">
       <div class="footercontent">
