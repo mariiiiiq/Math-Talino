@@ -150,7 +150,7 @@
       <div>
         <p class="bold">We will find out on the next part of this module whether you answered the problem properly and correctly.</p>
         <div class="row">
-          <div class="col-7 pic">
+          <div class="col pic">
           <img src = "../assets/img/cards.png" class="w-100"> 
           </div>
           <div class="col">
