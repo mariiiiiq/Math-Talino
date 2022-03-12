@@ -8,7 +8,11 @@ if(!empty($_FILES)){
         // Insert file information in the database 
         $sql = "INSERT INTO tblupload (file_name, uploaded_on) VALUES ('".$fileName."', NOW())"; 
         $insert = $conn->query($sql);
+        echo "ok";
     } 
+    else{
+    echo "hende";
+    }
 } 
 ?>
  
