@@ -47,15 +47,15 @@
   </div>
 </nav>
     <div class="container content mb-3">
-        <h1 class="text-center bold mt-5">Lesson 2: Greatest Common Factor</h1>
+        <h1 class="text-center mt-5">Lesson 2: <b>Greatest Common Factor</b></h1>
         <div class="row">
             <div class="box col-md-3"></div> 
                 <div class="box col-md-3">
                     <a href="lesson2.1.php" class="card p-2 mb-2" rel="noreferrer"> 
                         <div class="mt-1">
                             <div class="d-flex justify-content-center align-content-stretch flex-wrap">
-                                <img src="./assets/img/Fluid-red.png" class="w-100 p-3" alt="">
-                                <img src="./assets/img/owl1.png" class="owl p-3" alt="">
+                                <img src="../assets/img/Fluid-red.png" class="w-100 p-3" alt="">
+                                <img src="../assets/img/owl1.png" class="owl p-3" alt="">
                             </div>
                             <div>
                                 <h3 class="bold text-center mt-3 mb-3">Lesson 2.1</h3>
@@ -72,8 +72,8 @@
                     <a href="Lesson10/objective10.php" class="card p-2 mb-2" rel="noreferrer"> 
                         <div class="mt-1">
                             <div class="d-flex justify-content-center align-content-stretch flex-wrap">
-                                <img src="./assets/img/Fluid-red.png" class="w-100 p-3" alt="">
-                                <img src="./assets/img/owl1.png" class="owl p-3" alt="">
+                                <img src="../assets/img/Fluid-red.png" class="w-100 p-3" alt="">
+                                <img src="../assets/img/owl1.png" class="owl p-3" alt="">
                             </div>
                             <div>
                                 <h3 class="bold text-center mt-3 mb-3">Lesson 2.2</h3>
