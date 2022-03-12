@@ -1,9 +1,3 @@
-<?php
- session_start();
-  if(!isset($_SESSION['user'])){
-    header('Location: index.php');
-  }
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -79,26 +73,27 @@
           margin-top:-100px;
           margin-left: -60px;
         }
-@media only screen and (max-width: 576px) { 
+        @media only screen and (max-width: 576px) { 
     
-    .q{
-      margin-top:-50px;
-          margin-left: 230px;
-    }
-    .ross{
-      display:block;
-      width:100%;
-      margin-top:-40px;
-          margin-left: -60px;
-    }
-    .start{
-          margin-bottom:110px;
+        .q{
+          margin-top:-50px;
+              margin-left: 230px;
         }
-    .pic{
-      width: 100%;
-    }
-}
-        </style>
+        .ross{
+          display:block;
+          width:100%;
+          margin-top:-40px;
+          margin-left: -60px;
+        }
+        .start{
+        margin-bottom:110px;
+        }
+
+        .pic{
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light navbar-border">
@@ -109,22 +104,20 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
       <ul class="navbar-nav">
-       <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../student.php">Home</a>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../lessonlist.php">Lessons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../game.php">Games</a>
+          <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <?php echo $_SESSION['user'];?>
+            <?php session_start();
+            echo $_SESSION['user'];?>
           </a>
           <ul class="dropdown-menu drop-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item text-danger" href="../index.php">Logout</a></li>
+            <li><a class="dropdown-itaem text-danger" href="../index.php">Logout</a></li>
           </ul>
         </li>
       </ul>
@@ -143,7 +136,9 @@
       </div>
       <div class="">
         <p>What is asked in the Problem?<br>
-          <span><i class="bi bi-patch-question mx-2 ps-4"></i>Question</span>
+          <span><i class="bi bi-patch-question mx-2 ps-4"></i>The number of ways that Marlo can arrange his cards.
+          What are the given facts that can help you solve the problem?
+          </span>
         </p>
         <p>What are the given facts that can help you solve the problem?<br>
           <span><i class="bi bi-patch-question mx-2 ps-4"></i>10 Cards</span>
@@ -270,14 +265,278 @@
                 <div  id="20">20</div>
               </div>
             </div>
+
             <!-- 21 - 30 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="21">21</div>
+              </div>
+              <div class="crd">
+                <div id="22">22</div>
+              </div>
+              <div class="crd">
+                <div id="23">23</div>
+              </div>
+              <div class="crd">
+                <div id="24">24</div>
+              </div>
+              <div class="crd">
+                <div id="25">25</div>
+              </div>
+              <div class="crd">
+                <div  id="26">26</div>
+              </div>
+              <div class="crd">
+                <div id="27">27</div>
+              </div>
+              <div class="crd">
+                <div id="28">28</div>
+              </div>
+              <div class="crd">
+                <div id="29">29</div>
+              </div>
+              <div class="crd">
+                <div  id="30">30</div>
+              </div>
+            </div>
+
             <!-- 31 - 40 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="31">31</div>
+              </div>
+              <div class="crd">
+                <div id="32">32</div>
+              </div>
+              <div class="crd">
+                <div id="33">33</div>
+              </div>
+              <div class="crd">
+                <div id="34">34</div>
+              </div>
+              <div class="crd">
+                <div id="35">35</div>
+              </div>
+              <div class="crd">
+                <div  id="36">36</div>
+              </div>
+              <div class="crd">
+                <div id="37">37</div>
+              </div>
+              <div class="crd">
+                <div id="38">38</div>
+              </div>
+              <div class="crd">
+                <div id="39">39</div>
+              </div>
+              <div class="crd">
+                <div  id="40">40</div>
+              </div>
+            </div>
+
             <!-- 41 - 50 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="41">41</div>
+              </div>
+              <div class="crd">
+                <div id="42">42</div>
+              </div>
+              <div class="crd">
+                <div id="43">43</div>
+              </div>
+              <div class="crd">
+                <div id="44">44</div>
+              </div>
+              <div class="crd">
+                <div id="45">45</div>
+              </div>
+              <div class="crd">
+                <div  id="46">46</div>
+              </div>
+              <div class="crd">
+                <div id="47">47</div>
+              </div>
+              <div class="crd">
+                <div id="48">48</div>
+              </div>
+              <div class="crd">
+                <div id="49">49</div>
+              </div>
+              <div class="crd">
+                <div  id="50">50</div>
+              </div>
+            </div>
+
             <!-- 51 - 60 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="51">51</div>
+              </div>
+              <div class="crd">
+                <div id="52">52</div>
+              </div>
+              <div class="crd">
+                <div id="53">53</div>
+              </div>
+              <div class="crd">
+                <div id="54">54</div>
+              </div>
+              <div class="crd">
+                <div id="55">55</div>
+              </div>
+              <div class="crd">
+                <div  id="56">56</div>
+              </div>
+              <div class="crd">
+                <div id="57">57</div>
+              </div>
+              <div class="crd">
+                <div id="58">58</div>
+              </div>
+              <div class="crd">
+                <div id="59">59</div>
+              </div>
+              <div class="crd">
+                <div  id="60">50</div>
+              </div>
+            </div>
+
             <!-- 61 - 70 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="61">61</div>
+              </div>
+              <div class="crd">
+                <div id="62">62</div>
+              </div>
+              <div class="crd">
+                <div id="63">63</div>
+              </div>
+              <div class="crd">
+                <div id="64">64</div>
+              </div>
+              <div class="crd">
+                <div id="65">65</div>
+              </div>
+              <div class="crd">
+                <div  id="66">66</div>
+              </div>
+              <div class="crd">
+                <div id="67">67</div>
+              </div>
+              <div class="crd">
+                <div id="68">68</div>
+              </div>
+              <div class="crd">
+                <div id="69">69</div>
+              </div>
+              <div class="crd">
+                <div  id="70">70</div>
+              </div>
+            </div>
+
             <!-- 71 - 80 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="71">71</div>
+              </div>
+              <div class="crd">
+                <div id="72">72</div>
+              </div>
+              <div class="crd">
+                <div id="73">73</div>
+              </div>
+              <div class="crd">
+                <div id="74">74</div>
+              </div>
+              <div class="crd">
+                <div id="75">75</div>
+              </div>
+              <div class="crd">
+                <div  id="76">76</div>
+              </div>
+              <div class="crd">
+                <div id="77">77</div>
+              </div>
+              <div class="crd">
+                <div id="78">78</div>
+              </div>
+              <div class="crd">
+                <div id="79">79</div>
+              </div>
+              <div class="crd">
+                <div  id="80">80</div>
+              </div>
+            </div>
+            
             <!-- 81 - 90 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="81">81</div>
+              </div>
+              <div class="crd">
+                <div id="82">82</div>
+              </div>
+              <div class="crd">
+                <div id="83">83</div>
+              </div>
+              <div class="crd">
+                <div id="84">84</div>
+              </div>
+              <div class="crd">
+                <div id="85">85</div>
+              </div>
+              <div class="crd">
+                <div  id="86">86</div>
+              </div>
+              <div class="crd">
+                <div id="87">87</div>
+              </div>
+              <div class="crd">
+                <div id="88">88</div>
+              </div>
+              <div class="crd">
+                <div id="89">89</div>
+              </div>
+              <div class="crd">
+                <div  id="90">90</div>
+              </div>
+            </div>
+
             <!-- 91 - 100 -->
+            <div class="mt-2">
+              <div class="crd">
+                <div id="91">91</div>
+              </div>
+              <div class="crd">
+                <div id="92">92</div>
+              </div>
+              <div class="crd">
+                <div id="93">93</div>
+              </div>
+              <div class="crd">
+                <div id="94">94</div>
+              </div>
+              <div class="crd">
+                <div id="95">95</div>
+              </div>
+              <div class="crd">
+                <div  id="96">96</div>
+              </div>
+              <div class="crd">
+                <div id="97">97</div>
+              </div>
+              <div class="crd">
+                <div id="98">98</div>
+              </div>
+              <div class="crd">
+                <div id="99">99</div>
+              </div>
+              <div class="crd">
+                <div  id="100">100</div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -288,8 +547,8 @@
             <li>  Click all multiples of 3 except 3 to cross out
             <li>  Click all multiples of 5 except 5 to cross out
             <li>  Click all multiples of 7 except 7 to cross out
-      </ol>
-        </div>
+          </ol>
+        </div>ss
       </div>
       <div>
         <h6 class="bold">Try to observe the results.</h6><img src = "../assets/img/q.png" class="q"> 
