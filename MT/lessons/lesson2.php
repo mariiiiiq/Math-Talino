@@ -78,7 +78,7 @@
                             <div>
                                 <h3 class="bold text-center mt-3 mb-3">Lesson 2.2</h3>
                                 <div id="desc">
-                                    <p class="text-center"><br>Solving Word Problems Involving
+                                    <p class="text-center">Solving Word Problems Involving
                                         Greatest Common Factor
                                     </p>
                                 </div>
