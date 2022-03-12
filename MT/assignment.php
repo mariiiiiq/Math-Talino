@@ -32,7 +32,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <?php echo $_SESSION['user'];?>
+            <?php session_start(); echo $_SESSION['user'];?>
           </a>
           <ul class="dropdown-menu drop-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Settings</a></li>
