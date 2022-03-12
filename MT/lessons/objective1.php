@@ -58,7 +58,7 @@
       <!--content here-->
         <div class="row">
             <div class="col-4">
-              <img src = "../assets/img/bulbowl.png" class="w-100">
+              <img src = "../assets/img/bulbowl.png" class="w-100" style="float:right;">
             </div>
             <div class="col mt-5 pt-5">
                 <h4 class="bold">Objective</h4>
