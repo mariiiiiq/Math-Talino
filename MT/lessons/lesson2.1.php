@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link href="../assets/img/logo-sm.ico" rel="icon">
-    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
     <title>Math-Talino</title>
     
     <style>
@@ -88,7 +88,7 @@
         <p>Let us start learning the new concept with the help of this story problem. Read the story problem.
         </p>     
 
-        <img src = "./assets/img/rachel.jpg" class="w-100">
+        <img src = "../assets/img/rachel.jpg" class="w-100">
         
       </div>
       <div class="">
@@ -126,7 +126,7 @@
         
           <div class="row">
             <div class="col-3 pic">
-              <img src = "./assets/img/method1.png" class="w-100" style="floart:right;"> 
+              <img src = "../assets/img/method1.png" class="w-100" style="floart:right;"> 
             </div>
             <div class="col pt-3">
               <h5 class="bold pt-5">Study the Solution</h5>
@@ -159,7 +159,7 @@
       
       <div>
         <div class="">
-          <img src = "./assets/img/factortree.png" class="w-100">
+          <img src = "../assets/img/factortree.png" class="w-100">
           <p class=""> <h5> The expression "2 x 2 x 2 x 2" is said to be the <b>Prime
           Factorization</b> of 16. </h5> </p>
           <p class=""> <h5>Let us now solve the problem in What’s New using Prime
@@ -169,7 +169,7 @@
 
       <div class="row">
         <div class="col-7">
-          <img src = "./assets/img/method2.png" class="w-100"> 
+          <img src = "../assets/img/method2.png" class="w-100"> 
         </div>
         <div class="col">
           <h6 class="bold pt-5">List down the prime factors of 8 and 12.</h6>            
@@ -183,7 +183,7 @@
       </div>
 
       <div class="row">
-          <img src = "./assets/img/method3.png" class="pic w-50">
+          <img src = "../assets/img/method3.png" class="pic w-50">
           <h5 class="bold">Greatest Common Factor (GCF):   <u> 4</u></h5>
           <h5>Therefore, 4 is the greatest possible number of vases that
           Nancy can use.</h5>  
