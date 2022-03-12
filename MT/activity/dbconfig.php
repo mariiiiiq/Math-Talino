@@ -1,10 +1,9 @@
 <?php
 // Database configuration
-$host     = "localhost";
-$dbuser = "root";
-$dbpass = "";
-$dbname = "math-talino";
- 
+$host     = "remotemysql.com";
+$dbuser = "roZjQ9CPdSZzot";
+$dbpass = "Um1qQQ8Niq";
+$dbname = "ZjQ9CPdSZz";
 // Create database connection
 $conn = new mysqli($host, $dbuser, $dbpass, $dbname);
  
