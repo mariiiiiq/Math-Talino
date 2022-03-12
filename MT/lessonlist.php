@@ -68,7 +68,7 @@
                 </a>
             </div>
             <div class="box col-md-3">
-                <a href="Lesson2/lesson2.php" class="card p-2 mb-2" rel="noreferrer">
+                <a href="lessons/lesson2.php" class="card p-2 mb-2" rel="noreferrer">
                     <div class="mt-1">
                         <div class="d-flex justify-content-center align-content-stretch flex-wrap">
                             <img src="assets/img/Fluid-yellow.png" class="w-100 p-3" alt="">
