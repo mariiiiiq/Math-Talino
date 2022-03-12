@@ -150,7 +150,6 @@
                 $('#demo').val(data);
                 if($('#demo').val()!=""){
                   $('#output').html(data);
-                  $("#btnSubmit").attr("disabled", true);
                 }
               }
           });
