@@ -20,26 +20,28 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-light navbar-border">
     <div class="container-fluid mx-5">
-      <a class="navbar-brand bold w-50" href="pre-test.php"><img src="../assets/img/logo-sm.png" class="navbar-logo" alt="">Math-Talino</a>
+      <a class="navbar-brand bold w-50" href="admin-account.php"><img src="../assets/img/logo-sm.png" class="navbar-logo" alt="">Math-Talino</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+       <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../student.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" aria-current="page" href="../lessonlist.php">Lessons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../game.php">Games</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            <?php session_start();
-            echo $_SESSION['user'];?>
+            <?php echo $_SESSION['user'];?>
           </a>
           <ul class="dropdown-menu drop-menu" aria-labelledby="dropdownMenuButton1">
             <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-itaem text-danger" href="../index.php">Logout</a></li>
+            <li><a class="dropdown-item text-danger" href="index.php">Logout</a></li>
           </ul>
         </li>
       </ul>
