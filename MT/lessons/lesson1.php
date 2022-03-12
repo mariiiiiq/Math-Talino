@@ -65,7 +65,7 @@
           width:70%;
         }
         .start{
-          margin-bottom:300px;
+          margin-bottom:500px;
         }
         .ross{
           position:absolute;
