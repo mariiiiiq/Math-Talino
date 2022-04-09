@@ -1,0 +1,77 @@
+html{
+    font-size:larger;
+}
+body{
+    font-family: 'Meticula', sans-serif;    
+    color: #202528;
+    font-weight: 700;
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+  }
+a{
+    color: #202528;
+}
+.title{
+    font-family: 'Wicked Mouse', sans-serif;
+}
+.btns{
+  padding: 10px 25px 10px 25px;
+  border-radius: 3px;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.primary{
+  background-color:#5185BA;
+  color: #fff;
+  margin-right: 5px;
+}
+.secondary{
+  background-color: #f3f1ee;
+  color: #5185BA;
+  border-color: #73a3d7;
+  margin-right: 5px;
+}
+.secondary:hover, .primary:hover{
+  background-color: #2d639e;
+  border-color: #2d639e;
+  color: #fff;
+}   
+.next{
+    background-color:#5185BA;
+      margin-right: 10px;
+      position:absolute;
+      bottom:0;
+      right:0;
+      margin:10px;
+}
+.next:hover{
+  background-color: #2d639e;
+  color: #fff;
+}
+.btnnext{
+    background-color:#5185BA;
+      margin: 10px;
+      float:right;
+}
+/* Nav bar */
+.navbar-light{
+    background-color: #fff;
+    z-index:1;
+}
+.navbar-logo{
+    width: 3rem;
+}
+.navbar-border{
+    background-color: #fff;
+    border-bottom: 1px solid #dad7cd;
+}
+.table-responsive{height:400px;overflow-y:scroll;} 
+thead tr:nth-child(1) th{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
