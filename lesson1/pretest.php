@@ -152,7 +152,7 @@
             </div>
         </div>
     </div>
-    <a href="drill.php" class="title next btn btns">Next</a>
+    <a href="drill.php" class="title btnnext btn btns">Next</a>
 </div>
 <img src="../assets/img/objleaves2.png" class="objl2" alt="">
 
