@@ -65,7 +65,7 @@
         </nav>
     </div>
     <iframe src="https://drive.google.com/file/d/1ZsbZvdQHI6mZ7K7LVWQEAteSJrPhaU7X/preview" allow="autoplay"></iframe>
-      <a href="lesson.php" class="title btnback btn btns">Back</a>
+      <a href="lesson-video.php" class="title btnback btn btns">Back</a>
       <a href="conclusion.php" class="title btnnext btn btns">Next</a>
 </div>
 <img src="../assets/img/objleaves2.png" class="objl2" alt="">
