@@ -188,7 +188,7 @@
           </div>
         </div>
         <div>
-          <center> <img src = "../assets/img/table2.png" class="ross"></center>
+          <center> <img src = "../assets/img/table 2.png" class="ross"></center>
           <div class="row g-1">
             <div class="col-md-6 d-flex justify-content-center text-center"> 
               <div class="fact mx-0"><p class="mb-0">
