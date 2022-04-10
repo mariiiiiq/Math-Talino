@@ -66,7 +66,7 @@
     </div>
     <iframe src="https://drive.google.com/file/d/1tYutrgCZJzbhahPWDV4T1aP3fAC6Mdnt/preview" allow="autoplay"></iframe>
       <a href="lesson.php" class="title btnback btn btns">Back</a>
-      <a href="conclusion.php" class="title btnnext btn btns">Next</a>
+      <a href="lesson-video2.php" class="title btnnext btn btns">Next</a>
 </div>
 <img src="../assets/img/objleaves2.png" class="objl2" alt="">
 
