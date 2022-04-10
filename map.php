@@ -83,35 +83,35 @@
         <div class="row pt-5">
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 1" alt="">
+              <img src="assets/img/basket1.png" class="basket 1" alt="">
               <img src="assets/img/egg.png" class="egg1" alt="">
               <img src="assets/img/eggcracked.png" class="crack1 egg1" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 2" alt="">
+              <img src="assets/img/basket2.png" class="basket 2" alt="">
               <img src="assets/img/egg.png" class="egg2" alt="">
               <img src="assets/img/eggcracked.png" class="crack2 egg2" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 3" alt="">
+              <img src="assets/img/basket3.png" class="basket 3" alt="">
               <img src="assets/img/egg.png" class="egg3" alt="">
               <img src="assets/img/eggcracked.png" class="crack3 egg3" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 4" alt="">
+              <img src="assets/img/basket4.png" class="basket 4" alt="">
               <img src="assets/img/egg.png" class="egg4" alt="">
               <img src="assets/img/eggcracked.png" class="crack4 egg4" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 5" alt="">
+              <img src="assets/img/basket5.png" class="basket 5" alt="">
               <img src="assets/img/egg.png" class="egg5" alt="">
               <img src="assets/img/eggcracked.png" class="crack5 egg5" alt="">
             </div>
@@ -120,35 +120,35 @@
         <div class="row mt-5 pt-5">
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 1" alt="">
+              <img src="assets/img/basket6.png" class="basket 1" alt="">
               <img src="assets/img/egg.png" class="egg1" alt="">
               <img src="assets/img/eggcracked.png" class="crack1 egg1" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 2" alt="">
+              <img src="assets/img/basket7.png" class="basket 2" alt="">
               <img src="assets/img/egg.png" class="egg2" alt="">
               <img src="assets/img/eggcracked.png" class="crack2 egg2" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 3" alt="">
+              <img src="assets/img/basket8.png" class="basket 3" alt="">
               <img src="assets/img/egg.png" class="egg3" alt="">
               <img src="assets/img/eggcracked.png" class="crack3 egg3" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 4" alt="">
+              <img src="assets/img/basket9.png" class="basket 4" alt="">
               <img src="assets/img/egg.png" class="egg4" alt="">
               <img src="assets/img/eggcracked.png" class="crack4 egg4" alt="">
             </div>
           </div>
           <div class="col-2 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 5" alt="">
+              <img src="assets/img/basket10.png" class="basket 5" alt="">
               <img src="assets/img/egg.png" class="egg5" alt="">
               <img src="assets/img/eggcracked.png" class="crack5 egg5" alt="">
             </div>
@@ -159,14 +159,14 @@
         <div class="row mt-5 pt-5">
           <div class="col-6 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 1" alt="">
+              <img src="assets/img/basket1.png" class="basket 1" alt="">
               <img src="assets/img/egg.png" class="egg1" alt="">
               <img src="assets/img/eggcracked.png" class="crack1 egg1" alt="">
             </div>
           </div>
           <div class="col-6">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 2" alt="">
+              <img src="assets/img/basket2.png" class="basket 2" alt="">
               <img src="assets/img/egg.png" class="egg2" alt="">
               <img src="assets/img/eggcracked.png" class="crack2 egg2" alt="">
             </div>
@@ -175,14 +175,14 @@
         <div class="row pt-5 mt-5">
           <div class="col-6 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 3" alt="">
+              <img src="assets/img/basket3.png" class="basket 3" alt="">
               <img src="assets/img/egg.png" class="egg3" alt="">
               <img src="assets/img/eggcracked.png" class="crack3 egg3" alt="">
             </div>
           </div>
           <div class="col-6 ">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 4" alt="">
+              <img src="assets/img/basket4.png" class="basket 4" alt="">
               <img src="assets/img/egg.png" class="egg4" alt="">
               <img src="assets/img/eggcracked.png" class="crack4 egg4" alt="">
             </div>
@@ -191,14 +191,14 @@
         <div class="row pt-5 mt-5">
           <div class="col-6 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 5" alt="">
+              <img src="assets/img/basket5.png" class="basket 5" alt="">
               <img src="assets/img/egg.png" class="egg5" alt="">
               <img src="assets/img/eggcracked.png" class="crack5 egg5" alt="">
             </div>
           </div>
           <div class="col-6 ">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 6" alt="">
+              <img src="assets/img/basket6.png" class="basket 6" alt="">
               <img src="assets/img/egg.png" class="egg6" alt="">
               <img src="assets/img/eggcracked.png" class="crack6 egg6" alt="">
             </div>
@@ -207,14 +207,14 @@
         <div class="row pt-5 mt-5">
           <div class="col-6 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 7" alt="">
+              <img src="assets/img/basket7.png" class="basket 7" alt="">
               <img src="assets/img/egg.png" class="egg7" alt="">
               <img src="assets/img/eggcracked.png" class="crack7 egg7" alt="">
             </div>
           </div>
           <div class="col-6 ">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 8" alt="">
+              <img src="assets/img/basket8.png" class="basket 8" alt="">
               <img src="assets/img/egg.png" class="egg8" alt="">
               <img src="assets/img/eggcracked.png" class="crack8 egg8" alt="">
             </div>
@@ -223,14 +223,14 @@
         <div class="row pt-5 mt-5">
           <div class="col-6 d-flex justify-content-center">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 9" alt="">
+              <img src="assets/img/basket9.png" class="basket 9" alt="">
               <img src="assets/img/egg.png" class="egg9" alt="">
               <img src="assets/img/eggcracked.png" class="crack9 egg9" alt="">
             </div>
           </div>
           <div class="col-6 ">
             <div class="eggdiv tossing" style="">
-              <img src="assets/img/basket.png" class="basket 10" alt="">
+              <img src="assets/img/basket10.png" class="basket 10" alt="">
               <img src="assets/img/egg.png" class="egg10" alt="">
               <img src="assets/img/eggcracked.png" class="crack10 egg10" alt="">
             </div>
