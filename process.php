@@ -20,7 +20,7 @@
                         
 					}
 					else if($rows['usertype'] == "Teacher"){
-						echo '<script>location.href="teacher.php";</script>';
+						echo '<script>location.href="teacher-accounts.php";</script>';
 					}
 				}
 				else{
