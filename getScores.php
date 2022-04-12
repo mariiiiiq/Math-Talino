@@ -39,8 +39,13 @@
       }
       ?>
       <br>
+      <button type="button" class="btn-close me-3" style="float:right;display:none" data-bs-dismiss="modal" aria-label="Close"></button>
+      <!-- Name -->
+      <div class="me-1" id="name" style="width:200px;float:right;display:none">
+        <input type="text" class="form-control" name="searchname" id="searchname" placeholder="Name">
+      </div>
       <!-- Assessment Type -->
-      <div class="dropdown me-3" id="type" style="float:right;display:none">
+      <div class="dropdown me-1" id="type" style="float:right;display:none">
         <select class="form-select" id="cbtype" aria-label="Default select example">
           <option selected hidden>Assessment Type</option>
           <option value="Pre-test">Pre-test</option>
@@ -48,7 +53,7 @@
           <option value="Activity">Activity</option>
         </select>
       </div>
-      <div class="dropdown me-3" style="float:right">
+      <div class="dropdown me-2" style="float:right">
         <select class="form-select" id="filter" aria-label="Default select example">
           <option selected hidden>Filter</option>
           <option value="name">Name</option>
