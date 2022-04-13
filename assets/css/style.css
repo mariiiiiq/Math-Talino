@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Meticula'; 
+  src: url(../font/Meticula.ttf) format('truetype'),
+       url(../font/Meticula.woff) format('woff'),
+       url(../font/Meticula.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Wicked Mouse';
+  src: url(../font/Wicked-Mouse-Demo.woff) format('woff'),
+       url(../font/Wicked-Mouse-Demo.woff2) format('woff2');
+}
 html{
     font-size:larger;
 }
