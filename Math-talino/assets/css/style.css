@@ -1,0 +1,91 @@
+html{
+    font-size:larger;
+}
+body{
+    font-family: 'Meticula', sans-serif;    
+    color: #202528;
+    font-weight: 700;
+    overflow-x: hidden;
+    background-image:
+    -webkit-gradient(linear, left top, right top, from(#91b3f3), to(#a0bcf4));
+    background-image:
+    -moz-linear-gradient(left, #91b3f3, #a0bcf4);
+}
+* {
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration:none;
+      color: #202528;
+  }
+  a:hover{
+    color: #202528;
+  }
+.title{
+    font-family: 'Wicked Mouse', sans-serif;
+}
+.btns{
+  padding: 10px 25px 10px 25px;
+  border-radius: 3px;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.primary{
+  background-color:#5185BA;
+  color: #fff;
+  margin-right: 5px;
+}
+.secondary{
+  background-color: #f3f1ee;
+  color: #5185BA;
+  border-color: #73a3d7;
+  margin-right: 5px;
+}
+.secondary:hover, .primary:hover{
+  background-color: #2d639e;
+  border-color: #2d639e;
+  color: #fff;
+}   
+/* Nav bar */
+.navbar-light{
+    background-color: #fff;
+    z-index:1;
+}
+.navbar-logo{
+    width: 3rem;
+}
+.navbar-border{
+    background-color: #fff;
+    border-bottom: 1px solid #dad7cd;
+}
+.table-responsive{height:400px;overflow-y:scroll;} 
+thead tr:nth-child(1) th{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.box{
+  width:300px;
+}
+.objl1{
+  position:absolute;
+  right:0;
+  width:30%;
+  z-index: -100;
+}
+.objl2{
+  position:fixed;
+  bottom:0;
+  width:50%;
+  z-index: -100;
+}
+.btnback{
+  background-color:#af5d20;
+    margin: 10px;
+    color:#dad7cd;
+}
+.card{
+  background-color: #fcf8f2;
+}
